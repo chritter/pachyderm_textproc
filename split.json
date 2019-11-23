@@ -1,0 +1,18 @@
+{
+  "pipeline": {
+    "name": "textsplit"
+  },
+  "input": {
+    "pfs": {
+      "glob": "/*",
+      "repo": "texts"
+    }
+  },
+  "transform": {
+    "cmd": [
+      "python3",
+      "/edges.py"
+    ],
+    "image": "pachyderm/opencv"
+  }
+}

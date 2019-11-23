@@ -10,9 +10,9 @@
   },
   "transform": {
     "cmd": [
-      "python3",
-      "/edges.py"
+      "python",
+      "/work/split_text.py"
     ],
-    "image": "pachyderm/opencv"
+    "image": "chritter/textproc"
   }
 }

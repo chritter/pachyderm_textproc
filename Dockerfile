@@ -13,4 +13,5 @@ RUN apt-get install -y gcc zip vim
 WORKDIR /work
 COPY . /work/
 
-CMD './setup_fake_pachyderm.sh'
+# comment when using Pachyderm
+#CMD './setup_fake_pachyderm.sh'

@@ -11,8 +11,8 @@ RUN apt-get install -y curl grep sed dpkg && \
 #RUN apt-get install -y gcc zip vim
 
 
-WORKDIR /work
+#WORKDIR /
 COPY . /work/
 
 # comment when using Pachyderm
-#CMD './setup_fake_pachyderm.sh'
+#CMD './work/setup_fake_pachyderm.sh'

@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-mkdir -p /pfs/texts
-cp ./data/* /pfs/texts
-
-python split_text.py
+# for testing of setup
+python split_text.py --input_path './data/input' --output_path './data/output'
 /bin/bash
 
 

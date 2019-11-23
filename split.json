@@ -11,7 +11,9 @@
   "transform": {
     "cmd": [
       "python",
-      "/work/split_text.py"
+      "/work/split_text.py",
+      "--input_path /pfs/texts",
+      "--output_path /pfs/out"
     ],
     "image": "chritter/textproc"
   }
